@@ -8,10 +8,12 @@ public class StringUtilsTest {
     public void testStringIsReversed(){
         assertEquals("ynnep", StringUtils.reverseString("penny"));
     }
+
     @Test
     public void testReverseSingleChar(){
         assertEquals("p", StringUtils.reverseString("p"));
     }
+
     @Test
     public void testReverseEmptyString(){
         assertEquals("", StringUtils.reverseString(""));

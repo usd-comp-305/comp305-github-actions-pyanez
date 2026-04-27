@@ -14,7 +14,7 @@ public class StringUtils {
      * @param wordToReverse string that is reversed
      * @return the reversed string
      */
-    public static String reverseString(String wordToReverse){
+    public static String reverseString(final String wordToReverse){
         return new StringBuilder(wordToReverse).reverse().toString();
     }
 }
